@@ -91,4 +91,4 @@ plt.plot(losses,label='training loss')
 plt.show()
 
 plt.plot(accuracy,label='accuracy')
-plot.show()
+plt.show()
