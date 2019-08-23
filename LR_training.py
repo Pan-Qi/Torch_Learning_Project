@@ -52,8 +52,8 @@ for i in range(epochs):
     loss = criterion(y_pred,y)
     print("epoch:", i, "loss:", loss.item())
 
-
     losses.append(loss)
+
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
